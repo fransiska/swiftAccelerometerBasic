@@ -29,8 +29,6 @@ class GameScene: SKScene {
         let attitude = deviceMotion.attitude
         let roll = degrees(radians: attitude.roll)
         let pitch = degrees(radians: attitude.pitch)
-        let yaw = degrees(radians: attitude.yaw)
-        print("r: \(roll), p: \(pitch), y: \(yaw)")
         movePlayer(roll: roll, pitch: pitch)
     }
     
@@ -79,12 +77,8 @@ class GameScene: SKScene {
                 }
             })
         }
-
         
         //to make the sprite appear, must add it as a child
         addChild(player)
     }
-    
-    //override func update(_ currentTime: TimeInterval) {
-    //}
 }
