@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		445E0EAC1EE82EA9008FCC33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E0EAB1EE82EA9008FCC33 /* AppDelegate.swift */; };
+		445E0EAE1EE82EA9008FCC33 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 445E0EAD1EE82EA9008FCC33 /* GameScene.sks */; };
+		445E0EB01EE82EA9008FCC33 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 445E0EAF1EE82EA9008FCC33 /* Actions.sks */; };
+		445E0EB21EE82EA9008FCC33 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E0EB11EE82EA9008FCC33 /* GameScene.swift */; };
+		445E0EB41EE82EA9008FCC33 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E0EB31EE82EA9008FCC33 /* GameViewController.swift */; };
+		445E0EB71EE82EA9008FCC33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445E0EB51EE82EA9008FCC33 /* Main.storyboard */; };
+		445E0EB91EE82EA9008FCC33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445E0EB81EE82EA9008FCC33 /* Assets.xcassets */; };
+		445E0EBC1EE82EA9008FCC33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445E0EBA1EE82EA9008FCC33 /* LaunchScreen.storyboard */; };
+		445E0EC71EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445E0EC61EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		445E0EC31EE82EA9008FCC33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445E0EA01EE82EA9008FCC33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 445E0EA71EE82EA9008FCC33;
+			remoteInfo = SpriteKitSwiftAccelerometerTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		445E0EA81EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitSwiftAccelerometerTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		445E0EAB1EE82EA9008FCC33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		445E0EAD1EE82EA9008FCC33 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		445E0EAF1EE82EA9008FCC33 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		445E0EB11EE82EA9008FCC33 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		445E0EB31EE82EA9008FCC33 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		445E0EB61EE82EA9008FCC33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		445E0EB81EE82EA9008FCC33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		445E0EBB1EE82EA9008FCC33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		445E0EBD1EE82EA9008FCC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445E0EC21EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitSwiftAccelerometerTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		445E0EC61EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitSwiftAccelerometerTutorialTests.swift; sourceTree = "<group>"; };
+		445E0EC81EE82EA9008FCC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		445E0EA51EE82EA9008FCC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445E0EBF1EE82EA9008FCC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		445E0E9F1EE82EA9008FCC33 = {
+			isa = PBXGroup;
+			children = (
+				445E0EAA1EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorial */,
+				445E0EC51EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests */,
+				445E0EA91EE82EA9008FCC33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		445E0EA91EE82EA9008FCC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445E0EA81EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorial.app */,
+				445E0EC21EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		445E0EAA1EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				445E0EAB1EE82EA9008FCC33 /* AppDelegate.swift */,
+				445E0EAD1EE82EA9008FCC33 /* GameScene.sks */,
+				445E0EAF1EE82EA9008FCC33 /* Actions.sks */,
+				445E0EB11EE82EA9008FCC33 /* GameScene.swift */,
+				445E0EB31EE82EA9008FCC33 /* GameViewController.swift */,
+				445E0EB51EE82EA9008FCC33 /* Main.storyboard */,
+				445E0EB81EE82EA9008FCC33 /* Assets.xcassets */,
+				445E0EBA1EE82EA9008FCC33 /* LaunchScreen.storyboard */,
+				445E0EBD1EE82EA9008FCC33 /* Info.plist */,
+			);
+			path = SpriteKitSwiftAccelerometerTutorial;
+			sourceTree = "<group>";
+		};
+		445E0EC51EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				445E0EC61EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests.swift */,
+				445E0EC81EE82EA9008FCC33 /* Info.plist */,
+			);
+			path = SpriteKitSwiftAccelerometerTutorialTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445E0EA71EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445E0ECB1EE82EA9008FCC33 /* Build configuration list for PBXNativeTarget "SpriteKitSwiftAccelerometerTutorial" */;
+			buildPhases = (
+				445E0EA41EE82EA9008FCC33 /* Sources */,
+				445E0EA51EE82EA9008FCC33 /* Frameworks */,
+				445E0EA61EE82EA9008FCC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteKitSwiftAccelerometerTutorial;
+			productName = SpriteKitSwiftAccelerometerTutorial;
+			productReference = 445E0EA81EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		445E0EC11EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445E0ECE1EE82EA9008FCC33 /* Build configuration list for PBXNativeTarget "SpriteKitSwiftAccelerometerTutorialTests" */;
+			buildPhases = (
+				445E0EBE1EE82EA9008FCC33 /* Sources */,
+				445E0EBF1EE82EA9008FCC33 /* Frameworks */,
+				445E0EC01EE82EA9008FCC33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				445E0EC41EE82EA9008FCC33 /* PBXTargetDependency */,
+			);
+			name = SpriteKitSwiftAccelerometerTutorialTests;
+			productName = SpriteKitSwiftAccelerometerTutorialTests;
+			productReference = 445E0EC21EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		445E0EA01EE82EA9008FCC33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fransiska;
+				TargetAttributes = {
+					445E0EA71EE82EA9008FCC33 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 776PS9KY2H;
+						ProvisioningStyle = Automatic;
+					};
+					445E0EC11EE82EA9008FCC33 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 776PS9KY2H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 445E0EA71EE82EA9008FCC33;
+					};
+				};
+			};
+			buildConfigurationList = 445E0EA31EE82EA9008FCC33 /* Build configuration list for PBXProject "SpriteKitSwiftAccelerometerTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 445E0E9F1EE82EA9008FCC33;
+			productRefGroup = 445E0EA91EE82EA9008FCC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				445E0EA71EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorial */,
+				445E0EC11EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		445E0EA61EE82EA9008FCC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445E0EB71EE82EA9008FCC33 /* Main.storyboard in Resources */,
+				445E0EAE1EE82EA9008FCC33 /* GameScene.sks in Resources */,
+				445E0EB91EE82EA9008FCC33 /* Assets.xcassets in Resources */,
+				445E0EBC1EE82EA9008FCC33 /* LaunchScreen.storyboard in Resources */,
+				445E0EB01EE82EA9008FCC33 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445E0EC01EE82EA9008FCC33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		445E0EA41EE82EA9008FCC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445E0EB21EE82EA9008FCC33 /* GameScene.swift in Sources */,
+				445E0EB41EE82EA9008FCC33 /* GameViewController.swift in Sources */,
+				445E0EAC1EE82EA9008FCC33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445E0EBE1EE82EA9008FCC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445E0EC71EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		445E0EC41EE82EA9008FCC33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 445E0EA71EE82EA9008FCC33 /* SpriteKitSwiftAccelerometerTutorial */;
+			targetProxy = 445E0EC31EE82EA9008FCC33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		445E0EB51EE82EA9008FCC33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445E0EB61EE82EA9008FCC33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		445E0EBA1EE82EA9008FCC33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445E0EBB1EE82EA9008FCC33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		445E0EC91EE82EA9008FCC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		445E0ECA1EE82EA9008FCC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		445E0ECC1EE82EA9008FCC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 776PS9KY2H;
+				INFOPLIST_FILE = SpriteKitSwiftAccelerometerTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fransiska.SpriteKitSwiftAccelerometerTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		445E0ECD1EE82EA9008FCC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 776PS9KY2H;
+				INFOPLIST_FILE = SpriteKitSwiftAccelerometerTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fransiska.SpriteKitSwiftAccelerometerTutorial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		445E0ECF1EE82EA9008FCC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 776PS9KY2H;
+				INFOPLIST_FILE = SpriteKitSwiftAccelerometerTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fransiska.SpriteKitSwiftAccelerometerTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitSwiftAccelerometerTutorial.app/SpriteKitSwiftAccelerometerTutorial";
+			};
+			name = Debug;
+		};
+		445E0ED01EE82EA9008FCC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 776PS9KY2H;
+				INFOPLIST_FILE = SpriteKitSwiftAccelerometerTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fransiska.SpriteKitSwiftAccelerometerTutorialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitSwiftAccelerometerTutorial.app/SpriteKitSwiftAccelerometerTutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		445E0EA31EE82EA9008FCC33 /* Build configuration list for PBXProject "SpriteKitSwiftAccelerometerTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445E0EC91EE82EA9008FCC33 /* Debug */,
+				445E0ECA1EE82EA9008FCC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445E0ECB1EE82EA9008FCC33 /* Build configuration list for PBXNativeTarget "SpriteKitSwiftAccelerometerTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445E0ECC1EE82EA9008FCC33 /* Debug */,
+				445E0ECD1EE82EA9008FCC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		445E0ECE1EE82EA9008FCC33 /* Build configuration list for PBXNativeTarget "SpriteKitSwiftAccelerometerTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445E0ECF1EE82EA9008FCC33 /* Debug */,
+				445E0ED01EE82EA9008FCC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 445E0EA01EE82EA9008FCC33 /* Project object */;
+}
