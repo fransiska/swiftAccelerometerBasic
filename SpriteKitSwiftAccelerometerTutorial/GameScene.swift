@@ -18,7 +18,6 @@ class GameScene: SKScene {
     
     var posx:CGFloat = 0
     var posy:CGFloat = 0
-    var sign:CGFloat = 1
     
     func degrees(radians:Double) -> Double {
         return 180 / .pi * radians
@@ -31,7 +30,7 @@ class GameScene: SKScene {
         let pitch = degrees(radians: attitude.pitch)
         movePlayer(roll: roll, pitch: pitch)
     }
-    
+
     func movePlayer(roll: Double, pitch: Double) {
         if(roll < 0) {
             posx -= 5
@@ -59,8 +58,6 @@ class GameScene: SKScene {
     }
     
     override func didMove(to view: SKView) {
-        os_log("didmove", type: .debug)
-        
         backgroundColor = SKColor.black
         posx = size.width/2
         posy = size.height/2
@@ -73,7 +70,7 @@ class GameScene: SKScene {
                 if(error == nil) {
                     self.handleDeviceMotionUpdate(deviceMotion: deviceMotion!)
                 } else {
-                    os_log("Error in starting device motion updates", type: .debug)
+                    os_log("Error in device motion updates", type: .debug)
                 }
             })
         }
