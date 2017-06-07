@@ -17,36 +17,56 @@ class GameScene: SKScene {
     let motionManager = CMMotionManager()
     
     var posx:CGFloat = 0
+    var posy:CGFloat = 0
     var sign:CGFloat = 1
     
     func degrees(radians:Double) -> Double {
         return 180 / .pi * radians
     }
     
+    //handle accelerometer values updates
     func handleDeviceMotionUpdate(deviceMotion:CMDeviceMotion) {
         let attitude = deviceMotion.attitude
         let roll = degrees(radians: attitude.roll)
         let pitch = degrees(radians: attitude.pitch)
         let yaw = degrees(radians: attitude.yaw)
         print("r: \(roll), p: \(pitch), y: \(yaw)")
+        movePlayer(roll: roll, pitch: pitch)
     }
     
-    func movePlayer() {
-        player.position = CGPoint(x: posx, y: size.height/2)
+    func movePlayer(roll: Double, pitch: Double) {
+        if(roll < 0) {
+            posx -= 5
+        } else {
+            posx += 5
+        }
+        if(pitch > 0) {
+            posy -= 5
+        } else {
+            posy += 5
+        }
         
         if(posx > size.width) {
-            sign = -1
-        } else if(posx < 0) {
-            sign = 1
+            posx = size.width
+        } else if (posx < 0) {
+            posx = 0
         }
-        posx += sign*5
+        if(posy > size.height) {
+            posy = size.height
+        } else if (posy < 0) {
+            posy = 0
+        }
+    
+        player.position = CGPoint(x: posx, y: posy)
     }
     
     override func didMove(to view: SKView) {
         os_log("didmove", type: .debug)
         
         backgroundColor = SKColor.black
-        player.position = CGPoint(x: posx, y: size.height/2)
+        posx = size.width/2
+        posy = size.height/2
+        player.position = CGPoint(x: posx, y: posy)
         
         // get data of accelerometer async
         if motionManager.isDeviceMotionAvailable {
@@ -65,7 +85,6 @@ class GameScene: SKScene {
         addChild(player)
     }
     
-    override func update(_ currentTime: TimeInterval) {
-        movePlayer()
-    }
+    //override func update(_ currentTime: TimeInterval) {
+    //}
 }
